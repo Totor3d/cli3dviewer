@@ -32,7 +32,6 @@ Usage: cli3dviewer [FILE] [OPTIONS]
     -c [CHARACTER] Output characters
 
     Example with default values:
-    
     cli3dviewer [FILE] -s 2 -o 0 0 -p 0 0 3 -d 30 -r 0.02 0.03 0.01 -c \\#
 ";
 
