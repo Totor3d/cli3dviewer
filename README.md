@@ -1,7 +1,7 @@
 # SUPER CLI 3D .obj FILES VIEWER
 A utility to view low poly obj files from console
 
-[Usage]("assets/vid.mp4")
+[Usage](assets/vid.mp4)
 
 ## Build
 Build
