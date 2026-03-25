@@ -18,7 +18,23 @@ use clearscreen;
 
 use std::env;
 
-pub const HELP_MESSAGE : &str = "dssddsdsdsdsds";
+pub const HELP_MESSAGE : &str =
+"
+Usage: cli3dviewer [FILE] [OPTIONS]
+
+    The file must be in obj format
+
+    -s [SCALE(integer)]  Image scale
+    -o [X(integer)] [Y(integer)] Sceen offset
+    -p [X(float)] [Y(float)] [Z(float)] Object position
+    -d [MILLISECONDS(int)] Delay between frames
+    -r [X(float)] [Y(float)] [Z(float)] Rotation per frame
+    -c [CHARACTER] Output characters
+
+    Example with default values:
+    
+    cli3dviewer [FILE] -s 2 -o 0 0 -p 0 0 3 -d 30 -r 0.02 0.03 0.01 -c \\#
+";
 
 fn print_help() {
     println!("{}", HELP_MESSAGE);
