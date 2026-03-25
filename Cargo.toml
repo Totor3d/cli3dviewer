@@ -1,0 +1,8 @@
+[package]
+name = "cli3dviewer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clearscreen = "2.0.0"
+terminal_size = "0.4"
