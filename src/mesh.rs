@@ -43,6 +43,7 @@ impl Mesh {
                 for i in 1..vertices_in_face.len() {
                     edges.push((vertices_in_face[i-1]-1, vertices_in_face[i]-1));
                 }
+                edges.push((vertices_in_face[0]-1, vertices_in_face[vertices_in_face.len()-1]-1));
             }
         }
         Ok(Mesh { vertices, edges })
